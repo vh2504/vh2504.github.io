@@ -254,7 +254,7 @@ li.tren {
 }
 
 li.tren a {
-    font-weight: bold !important;
+    font-weight: 700 !important;
 }
 
 .cot1 ul li a:hover {
@@ -264,7 +264,7 @@ li.tren a {
 .cot1 ul li a {
     font-size: 15px;
     font-family: segoe ui;
-    font-weight: 400;
+    /* font-weight: 400; */
     /* color: black; */
 }
 
@@ -314,6 +314,11 @@ i.fa.fa-bars {
     /* height: 5px; */
     z-index: 100;
     cursor: pointer;
+    transition: 0.001s;
+}
+
+i.fa.fa-bars:hover {
+    color: red;
 }
 
 i.fa.fa-bars:hover .menu-con {
@@ -518,8 +523,27 @@ h2>a {
 .an{
     visibility: hidden;
     opacity: 0;
+    transition: 0.3s;
 }
 .hien{
+    transition: 0.3s;
     visibility: visible;
     opacity: 1;
+}
+
+.chuX{
+    /* transition: 0.3s; */
+    color: #eb1414;
+    position: absolute;
+    top: 14px;
+    left: 692px;
+    font-size: 19px;
+    font-family: 10px;
+    /* height: 5px; */
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: segoe ui;
+    font-weight: bold;
+    transition: 0..0001s;
 }
