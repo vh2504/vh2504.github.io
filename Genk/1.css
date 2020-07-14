@@ -1,0 +1,450 @@
+    *{
+        margin: 0 ;
+        padding: 0;
+    }
+
+h3.dev {
+    color: white;
+    font-size: 40px;
+    line-height: 165px;
+    font-family: cursive;
+    text-transform: uppercase;
+    width: 100%;
+    /* margin: 0 auto; */
+    display: block;
+    margin: 0 auto;
+    padding-left: 521px;
+}
+
+hr {
+    border-color: red !important;
+    /* font-size: 0px; */
+    border-width: 0.1px !important;
+}
+
+.list-bottom {
+    padding: 20px 0;
+}
+
+.menu-duoi li a {
+    color: white;
+    text-transform: uppercase;
+    font-family: seoge ui;
+    font-size: 12px;
+    display: block;
+    padding-right: 16px;
+    font-weight: 500;
+}
+
+.menu-duoi li a:hover {
+    color: red;
+}
+
+button {
+    padding: 12px 10px;
+    background: #ed2e2e;
+    border-radius: 20px;
+    width: 116px;
+    color: white;
+    display: block;
+    margin: 22px auto;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+
+
+a.nd2 {
+    padding: 14px 5px;
+    display: block;
+    color: black;
+    font-family: segoe ui;
+    font-size: 14px;
+}
+
+.fo2>p {
+    width: 93%;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    /* padding: 8px; */
+}
+
+.fo2 p:last-child {
+    /* background: black; */
+    border-bottom: none;
+}
+
+.fo2 {
+    background: #f1f1f1;
+}
+
+
+img.anh1 {
+    width: 100%;
+    height: 70px;
+    padding-top: 18px;
+    padding-right: 5px;
+}
+
+.nd1>a {
+    font-size: 15px;
+    color: black;
+    font-family: segoe ui;
+    font-weight: 500;
+    padding: 14px 2px;
+}
+
+.nd1 {
+    display: flex;
+    /* padding: 5px 5px; */
+    border-bottom: 1px solid gray;
+    width: 93%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.img-fo {
+    border: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    font-family: segoe ui;
+    padding-bottom: 20px;
+}
+
+.fo1>h3 {
+    /* padding: 20px 20px; */
+    margin: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    border-left: 6px solid red;
+}
+
+.fo2>h3 {
+    margin: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-left: 6px solid red;
+    padding-left: 20px;
+    /* padding-bottom: 10px; */
+    /* border-bottom: 1px solid gray; */
+}
+
+
+.fo1 {
+    width: 100%;
+}
+
+.fourth {
+    width: 74%;
+    display: grid;
+    grid-template-columns: 60% 39%;
+    grid-gap: 15px;
+}
+
+small.dam {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 4px;
+}
+    body,html{
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        width: 100%;
+        /*background: #f1f1f1;*/
+        height: 100%;
+    }
+    
+    .top {
+    width: 100%;
+    height: 25px;
+    background: #2e2e2e;
+    /* margin: 0; */
+    }
+    .top ul li a {
+    text-decoration: none;
+    color: #aaa;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.fo1>p>a {
+    padding: 10px;
+    color: black;
+    text-transform: none;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+    display: block;
+    text-decoration: none;
+}
+
+.top ul li a:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 7px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 200px;
+}
+.menutop {
+    width: 100%;
+    background: #222;
+    height: 45px;
+    position: relative;
+}
+a.img-top {
+    background: url("https://genk.mediacdn.vn/web_images/sprite-genk_v11.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    width: 140px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    top: 13px;
+    left: 200px;
+    cursor: pointer;
+}
+ul.list-item {
+    position: absolute;
+    left: 159px;
+    top: 10px;
+}
+
+ul.list-item>li>a {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+ul.list-item>li>a:hover {
+    color: red;
+}
+i.fa.fa-bars {
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 692px;
+    font-size: 19px;
+    font-family: 10px;
+    /* height: 5px; */
+}
+.right {
+    float: right;
+    margin-right: 100px;
+}
+i.fa.fa-search {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+input[type="text"] {
+    width: 135px !important;
+    border-radius: 10px;
+    /*display: none;*/
+}
+
+a.video {
+    color: white;
+    font-size: 15px;
+    line-height: 45px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.xam {
+    width: 100%;
+    height: 40px;
+    background: #f1f1f1;
+}
+.content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+}
+
+.first {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 68% 30%;
+    grid-gap: 25px;
+    /*background: lightblue;*/
+    height: auto;
+    /* box-sizing: border-box; */
+}
+img {
+    width: 100%;
+    height: 280px;
+}
+
+.f1 {
+    width: 100%;
+    /* height: auto; */
+}
+
+h2>a {
+    color: black !important;
+    font-size: 21px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.f1>p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: segoe ui;
+}
+
+.f2 {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+
+.f2>h2>a {
+    color: black !important;
+    font-size: 13px;
+    text-transform: none;
+    font-family: segoe ui;
+    padding: 1px 2px;
+    text-align: center;
+}
+
+.f2>h2 {
+    text-align: justify;
+    padding: 1px 11px;
+    margin: 0;
+    display: block;
+}
+
+.second {
+    width: 70%;
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+
+
+.item1 {
+    width: 100%;
+}
+
+.item1>img {
+    width: 100%;
+    height: 150px;
+}
+
+.item1>h3>a {
+    color: black;
+    font-size: 16px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.item1>h3>a:hover {
+    color: #2e272e;
+}
+.third {
+    margin-top: 40px;
+    width: 70%;
+    /* display: grid; */
+    /* grid-template-columns: 30% 69%; */
+    /* grid-gap: 10px; */
+    box-sizing: border-box;
+}
+
+.item2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 69%;
+    grid-gap: 10px;
+    height: 130px;
+    border-bottom: 1px solid gray;
+    padding: 25px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    /* transition: 0.4s; */
+}
+
+.image>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.image>img:hover {
+    border: 1px solid #00000066;
+}
+
+.item2:first-child {
+    border-top: 2px solid red;
+    /* padding: 25px; */
+}
+
+.nd>h3>a {
+    color: black;
+    text-transform: none;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.nd>h3>a:hover {
+    color: #1a2a32;
+}
+.footer{
+    background: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 55px;
+}
+.footer h1{
+    position: relative;
+    width: 70%;
+    height: 40px;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.footer h1>a{
+    background: url("https://genk.mediacdn.vn/web_images/sprite-genk_v11.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    width: 140px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    top: 26px;
+    /* left: 200px; */
+    cursor: pointer;
+}
