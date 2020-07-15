@@ -8,10 +8,11 @@
 }
 
 .menu-con {
-    top: 70px;
+    top: 45px;
     position: absolute;
     width: 100%;
-    height: 250px;
+    height: 220px;
+    left: 0;
     /* margin-left: 0; */
     background: #f1f1f1;
     display: grid;
@@ -273,7 +274,8 @@ li.tren a {
     width: 100%;
     background: #222;
     height: 45px;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 a.img-top {
     background: url("https://genk.mediacdn.vn/web_images/sprite-genk_v11.png");
@@ -409,7 +411,7 @@ h2>a {
 }
 
 .f2>h2 {
-    text-align: justify;
+    /* text-align: justify; */
     padding: 1px 11px;
     margin: 0;
     display: block;
