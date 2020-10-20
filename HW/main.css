@@ -74,11 +74,11 @@ h3, h4 {
     margin-top: 30px;
     /* margin-left: 252px; */
 }
-.col-7 {
+/* .col-7 {
     background-image: url(n.png);
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 .row>h3 {
     font-size: 30px;
@@ -86,7 +86,7 @@ h3, h4 {
 }
 
 .row .col-7 p {
-    color: wheat;
+    color: #846325;
     font-size: 19px;
     font-family: cursive;
 }
