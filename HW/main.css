@@ -110,3 +110,10 @@ audio {
     margin-top: 20px;
     display: none;
 }
+
+@media all and (max-width: 576px) {
+    *{
+        width: 0;
+        height: 0;
+    }
+}
