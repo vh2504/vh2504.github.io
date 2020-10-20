@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="banner">
+			<img src="banner.png" alt="">
+		</div>
+
+		<button id="con" class="btn btn-danger" onclick="redirect()">Click to receive present</button>
+
+		<div class="smile mb-5" id="smile">
+			<h3>Cám ơn vì chị đã bị lừa :))</h3>
+			<h4>Click rồi nên từ giờ em kêu chị là em đó nghe hehehehe </h4>
+			<button id = "con2" class="btn btn-warning" onclick="redirect2()">Try again</button>
+		</div>
+
+		<div id="chuc" class="chuc mt-3">
+			<h1>Chúc mừng ngày phụ nữ Việt Nam 20-10</h1>
+			<img src="bong.jpg" alt="" class="rounded mx-auto d-block">
+
+			<div class="loichuc mt-3 mb-5">
+				<div class="row" >
+					<h3 >Thay mặt cho một nửa người con trai trên thế giới </h3>
+					<div class="col-7">
+						<p>Chúc chị luôn có nhiều sức khỏe </p>
+						<p>Luôn luôn xinh đẹp</p>
+						<p>Học giỏi, ra trường có việc làm ngay</p>
+						<p>Luôn luôn vui vẻ , hạnh phúc </p>
+						<p>Gặp thật nhiều may mắn</p>
+						<p>Và thật thành công trong cuộc sống</p>
+					</div>
+					<div class="col-5">
+						<img src="hoahong.gif" alt="">
+					</div>
+				</div>
+
+				<div class="row text-center">
+					<button class="btn btn-primary" onclick="anNhac()">
+						Click để nghe em hát :)))
+					</button>
+					<audio controls id="nhac">
+						<source src="gg.mp3" type="audio/mpeg">
+					  </audio>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<script>
+		function redirect(){
+			//alert("Hello");
+			var smile = document.getElementById('smile');
+			smile.classList.add('hien');
+		}
+
+		function redirect2(){
+			var con = document.getElementById('con');
+			var smile = document.getElementById('smile');
+			
+			con.classList.add('an');
+			smile.classList.add('an');
+			document.getElementById('chuc').classList.add("hien2");		
+		}
+		function anNhac(){
+			document.getElementById('nhac').classList.add("hien2");
+		}
+		
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
